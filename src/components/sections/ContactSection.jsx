@@ -85,7 +85,7 @@ const ContactSection = () => {
       setSubmitStatus({ type: 'loading', message: '전송 중...' });
       
       // API 호출 부분 - 백엔드 연동 시 이 부분을 수정
-      const response = await fetch('http://15.165.17.133:8000/contact/', {
+      const response = await fetch('https://15.165.17.133:8000/contact/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
