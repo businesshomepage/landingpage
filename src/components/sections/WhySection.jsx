@@ -45,7 +45,7 @@ const WhySection = () => {
       >
         <motion.div variants={itemVariants} className="text-center">
           <h2 className="text-3xl font-bold mb-4">
-            왜 홈페이지가 필요할까요?
+            왜 당신에게 홈페이지가 필요할까요?
           </h2>
           <p className="text-gray-600">
             SNS는 시작일 뿐입니다. 진정한 비즈니스 성장은 여기서 시작됩니다.

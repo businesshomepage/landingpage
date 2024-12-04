@@ -10,7 +10,7 @@ const MainSection = () => {
         className="space-y-6"
       >
         <h1 className="text-4xl font-bold leading-tight">
-          살아남는 사람들은 집에서 밥을 먹고 있습니다{' '}<br />
+          살아남는 사람들은{' '}<br />
           <span className="text-primary-600">자신만의 공간</span>이
           <br />
           분명히 있습니다
