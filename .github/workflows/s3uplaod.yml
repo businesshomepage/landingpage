@@ -15,11 +15,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./landingpage #디렉토리명
+        working-directory: . #디렉토리명
 
       - name: Build
         run: npm run build
-        working-directory: ./landingpage
+        working-directory: .
 
       - name: SHOW AWS CLI VERSION
         env:
@@ -39,4 +39,4 @@ jobs:
             --region ap-northeast-2 \
             dist s3://${{ secrets.AWS_S3_BUCKET_NAME }} \
             --delete
-        working-directory: ./landingpage
+        working-directory: .
