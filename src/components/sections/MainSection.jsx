@@ -4,16 +4,16 @@ const MainSection = () => {
   return (
     <div className="h-screen flex flex-col justify-center px-6">
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
+        initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.4 }}
         className="space-y-6"
       >
         <h1 className="text-4xl font-bold leading-tight">
-          살아남는 사람들은{' '}<br />
-          <span className="text-primary-600">자신만의 공간</span>을
+          안정적인 수입을 넘어{' '}<br />
+          <span className="text-primary-600">폭발적인 성장</span>을 꿈꾸는
           <br />
-          가지고 있습니다.
+          당신의 공간
         </h1>
         
         <p className="text-xl text-gray-600 leading-relaxed">
@@ -24,7 +24,7 @@ const MainSection = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
+          transition={{ delay: 0.2, duration: 0.4 }}
         >
           <button
             onClick={() => {
@@ -40,7 +40,7 @@ const MainSection = () => {
 
       <motion.div
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-        animate={{ y: [0, 10, 0] }}
+        animate={{ y: [0, 5, 0] }}
         transition={{ duration: 1.5, repeat: Infinity }}
       >
         <div className="text-gray-400 text-sm">스크롤하여 더 알아보기</div>

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const PriceCard = ({ title, price, features, isPopular, description }) => (
   <motion.div
     variants={{
-      hidden: { opacity: 0, y: 20 },
+      hidden: { opacity: 0, y: 10 },
       visible: { opacity: 1, y: 0 }
     }}
     className={`bg-white rounded-xl p-6 shadow-lg ${
@@ -73,7 +73,7 @@ const PriceSection = () => {
     {
       title: "스타터",
       description: "처음 시작하시는 분들을 위한 베이직 플랜",
-      price: "299,000원",
+      price: "390,000원",
       features: [
         "반응형 원페이지 디자인",
         "기본 예약 시스템",
@@ -83,9 +83,9 @@ const PriceSection = () => {
       ]
     },
     {
-      title: "프로",
+      title: "아마추어",
       description: "전문가를 위한 모든 기능",
-      price: "599,000원",
+      price: "690,000원",
       isPopular: true,
       features: [
         "멀티페이지 디자인",
@@ -98,9 +98,9 @@ const PriceSection = () => {
       ]
     },
     {
-      title: "비즈니스",
-      description: "성장하는 비즈니스를 위한 맞춤 솔루션",
-      price: "899,000원",
+      title: "레전드",
+      description: "업계의 아이콘이 되기 위한 맞춤 솔루션",
+      price: "990,000원",
       features: [
         "맞춤형 디자인",
         "고급 예약 관리 시스템",
@@ -126,7 +126,7 @@ const PriceSection = () => {
       >
         <motion.div
           variants={{
-            hidden: { opacity: 0, y: 20 },
+            hidden: { opacity: 0, y: 10 },
             visible: { opacity: 1, y: 0 }
           }}
           className="text-center"

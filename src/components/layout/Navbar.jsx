@@ -47,7 +47,7 @@ const Navbar = ({ isScrolled }) => {
 
         {/* 로고 */}
         <div className="text-xl font-bold text-primary-600">
-          Artiskit
+          BizKit
         </div>
 
         {/* 수정된 모바일 메뉴 */}

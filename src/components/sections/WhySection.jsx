@@ -6,7 +6,7 @@ const WhySection = () => {
     {
       icon: <HiGlobe className="w-8 h-8 text-primary-600" />,
       title: "'좋아요'는 짧지만 작품은 길다",
-      description: "- 나를 대표하는 작품을 전시해줘야해"
+      description: "- 매일 열리는 작품 갤러리"
     },
     {
       icon: <HiClock className="w-8 h-8 text-primary-600" />,

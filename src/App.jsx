@@ -10,6 +10,7 @@ const PortfolioSection = lazy(() => import('./components/sections/PortfolioSecti
 const PriceSection = lazy(() => import('./components/sections/PriceSection'));
 const ContactSection = lazy(() => import('./components/sections/ContactSection'));
 const QnaSection = lazy(() => import('./components/sections/QnaSection'));
+const ComparisonSection = lazy(() => import('./components/sections/ComparisonSection'));
 
 const LoadingFallback = () => (
   <div className="flex items-center justify-center h-screen">
@@ -43,6 +44,9 @@ function App() {
                   <WhySection />
                 </section>
 
+                <section id="comparison" className="min-h-screen flex items-center justify-center px-4">
+                  <ComparisonSection />
+                </section>
 
                 <section id="price" className="min-h-screen flex items-center justify-center px-4">
                   <PriceSection />
