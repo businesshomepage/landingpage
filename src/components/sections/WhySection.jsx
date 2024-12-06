@@ -20,18 +20,26 @@ const WhySection = () => {
     }
   ];
 
+  // 애니메이션 속도 최적화
   const containerVariants = {
-    hidden: {},
+    hidden: { opacity: 1 },
     visible: {
+      opacity: 1,
       transition: {
-        staggerChildren: 0.2
+        staggerChildren: 0.1 // 0.2에서 0.1로 감소
       }
     }
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 }
+    hidden: { opacity: 0, y: 10 }, // y값을 20에서 10으로 감소
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: {
+        duration: 0.3 // 빠른 트랜지션 추가
+      }
+    }
   };
 
   return (
@@ -39,24 +47,22 @@ const WhySection = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.8 }}
+        viewport={{ once: true, amount: 0.3 }} // amount 값을 0.8에서 0.3으로 감소
         variants={containerVariants}
         className="space-y-12"
       >
         <motion.div variants={itemVariants} className="text-center">
           <h2 className="text-3xl font-bold mb-4">
-          한 번 오는 수강생이 <br></br>
-          &apos;<span className="text-primary-600">평생 팬</span>&apos;이 되는 순간.
+            한 번 오는 수강생이 <br />
+            &apos;<span className="text-primary-600">평생 팬</span>&apos;이 되는 순간.
           </h2>
           <p className="text-gray-600">
-          홈페이지는 단순한 웹사이트가 아닌 <br></br>당신만의 &apos;프리미엄 브랜드&apos;입니다
+            홈페이지는 단순한 웹사이트가 아닌 <br />
+            당신만의 &apos;프리미엄 브랜드&apos;입니다
           </p>
         </motion.div>
 
-        <motion.div 
-          variants={containerVariants}
-          className="space-y-8"
-        >
+        <div className="space-y-8">
           {reasons.map((reason, index) => (
             <motion.div
               key={index}
@@ -78,7 +84,7 @@ const WhySection = () => {
               </div>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
 
         <motion.div 
           variants={itemVariants}

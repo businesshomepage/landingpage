@@ -35,14 +35,14 @@ function App() {
                 <section id="main" className="min-h-screen flex items-center justify-center px-4">
                   <MainSection />
                 </section>
+                <section id="portfolio" className="min-h-screen flex items-center justify-center px-4">
+                  <PortfolioSection />
+                </section>
 
                 <section id="why" className="min-h-screen flex items-center justify-center px-4">
                   <WhySection />
                 </section>
 
-                <section id="portfolio" className="min-h-screen flex items-center justify-center px-4">
-                  <PortfolioSection />
-                </section>
 
                 <section id="price" className="min-h-screen flex items-center justify-center px-4">
                   <PriceSection />

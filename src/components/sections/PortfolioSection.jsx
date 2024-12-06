@@ -9,7 +9,7 @@ const PortfolioCard = ({ title, category, image, link, description }) => (
     className="block bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
     whileHover={{ y: -5 }}
     variants={{
-      hidden: { opacity: 0, y: 20 },
+      hidden: { opacity: 0, y: 5 },
       visible: { opacity: 1, y: 0 }
     }}
   >
@@ -76,7 +76,7 @@ const PortfolioSection = () => {
       >
         <motion.div
           variants={{
-            hidden: { opacity: 0, y: 20 },
+            hidden: { opacity: 0, y: 5 },
             visible: { opacity: 1, y: 0 }
           }}
           className="text-center"
