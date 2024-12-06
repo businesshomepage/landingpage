@@ -5,18 +5,18 @@ const WhySection = () => {
   const reasons = [
     {
       icon: <HiGlobe className="w-8 h-8 text-primary-600" />,
-      title: "나만의 영구적인 디지털 공간",
-      description: "SNS는 알고리즘에 의존적이지만, 홈페이지는 당신만의 영구적인 디지털 자산이 됩니다."
+      title: "'좋아요'는 짧지만 작품은 길다",
+      description: "- 나를 대표하는 작품을 전시해줘야해"
     },
     {
       icon: <HiClock className="w-8 h-8 text-primary-600" />,
-      title: "24/7 비즈니스 허브",
-      description: "잠들어 있는 동안에도 당신의 비즈니스는 계속됩니다. 자동화된 예약 시스템으로 언제든 고객을 맞이하세요."
+      title: "24시간 완벽하게 일하는 매니저",
+      description: "- 자는 동안에도 쌓이는 수업문의, 자동 예약과 결제까지 한번에"
     },
     {
       icon: <HiTrendingUp className="w-8 h-8 text-primary-600" />,
-      title: "프로페셔널한 브랜딩",
-      description: "SNS만으로는 부족합니다. 전문성과 신뢰도를 높이는 프로페셔널한 온라인 거점이 필요합니다."
+      title: "프로페셔널 브랜딩",
+      description: "수강생의 리뷰가 달라지고 수업의 가치가 달라지고 당신의 위상이 달라집니다"
     }
   ];
 
@@ -45,10 +45,11 @@ const WhySection = () => {
       >
         <motion.div variants={itemVariants} className="text-center">
           <h2 className="text-3xl font-bold mb-4">
-            왜 당신에게 홈페이지가 필요할까요?
+          한 번 오는 수강생이 <br></br>
+          &apos;<span className="text-primary-600">평생 팬</span>&apos;이 되는 순간.
           </h2>
           <p className="text-gray-600">
-            SNS는 시작일 뿐입니다. 진정한 비즈니스 성장은 여기서 시작됩니다.
+          홈페이지는 단순한 웹사이트가 아닌 <br></br>당신만의 &apos;프리미엄 브랜드&apos;입니다
           </p>
         </motion.div>
 
@@ -84,8 +85,8 @@ const WhySection = () => {
           className="text-center bg-primary-50 rounded-xl p-6"
         >
           <p className="text-lg text-primary-800 font-medium">
-            단순한 SNS 계정이 아닌, <br />
-            당신의 비즈니스를 대표하는 프로페셔널한 공간을 만들어보세요
+            무대 위 스포트라이트처럼, <br />
+            당신의 작품만을 위한 특별한 조명을 비춥니다.
           </p>
         </motion.div>
       </motion.div>

@@ -43,23 +43,23 @@ PortfolioCard.propTypes = {
 const PortfolioSection = () => {
   const portfolios = [
     {
-      title: "요가 강사 A님의 홈페이지",
+      title: "요가 강사 AsiaTop님의 홈페이지",
       category: "강사",
-      image: "/api/placeholder/400/300",
+      image: "https://t1.daumcdn.net/news/202105/23/muscleandfitness/20210523210108742mqyg.jpg",
       link: "#",
       description: "온라인 클래스 예약과 커리큘럼 소개가 가능한 미니멀한 디자인"
     },
     {
-      title: "메이크업 아티스트 B님의 포트폴리오",
+      title: "메이크업 아티스트 BlackBlue님의 포트폴리오",
       category: "아티스트",
-      image: "/api/placeholder/400/300",
+      image: "https://image.xportsnews.com/contents/images/upload/article/2019/0503/mb_1556840011308166.jpg",
       link: "#",
       description: "작품 갤러리와 예약 시스템이 통합된 포트폴리오 사이트"
     },
     {
-      title: "퍼스널 트레이너 C님의 홈페이지",
+      title: "퍼스널 트레이너 Jacob님의 홈페이지",
       category: "트레이너",
-      image: "/api/placeholder/400/300",
+      image: "https://watermark.lovepik.com/photo/20220304/large/lovepik-fitness-trainer-instructing-students-with-dumbbell-picture_502364998.jpg",
       link: "#",
       description: "회원 관리와 PT 일정 예약이 가능한 올인원 플랫폼"
     }
@@ -81,9 +81,9 @@ const PortfolioSection = () => {
           }}
           className="text-center"
         >
-          <h2 className="text-3xl font-bold mb-4">포트폴리오</h2>
+          <h2 className="text-3xl font-bold mb-4">Portfolio</h2>
           <p className="text-gray-600">
-            다양한 분야의 전문가들이 이미 시작했습니다
+            보다 빠르게 시작한 예술가들을 소개합니다.
           </p>
         </motion.div>
 

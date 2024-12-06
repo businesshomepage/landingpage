@@ -11,14 +11,14 @@ const MainSection = () => {
       >
         <h1 className="text-4xl font-bold leading-tight">
           살아남는 사람들은{' '}<br />
-          <span className="text-primary-600">자신만의 공간</span>이
+          <span className="text-primary-600">자신만의 공간</span>을
           <br />
-          분명히 있습니다
+          가지고 있습니다.
         </h1>
         
         <p className="text-xl text-gray-600 leading-relaxed">
-          SNS는 일시적입니다.<br />
-          당신만의 영구적인 디지털 정원을 가꾸어보세요.
+          이제는 <span className="text-primary-600">좋아요</span>를 넘어, <br />
+          나만의 무대가 필요할 때입니다.
         </p>
 
         <motion.div
